@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados_pedido">
+        <item>Todos los estados</item>
+        <item>Pendiente</item>
+        <item>En Producción</item>
+        <item>Completado</item>
+        <item>Entregado</item>
+    </string-array>
+    <string-array name="estados_produccion">
+        <item>Todos los estados</item>
+        <item>Pendiente</item>
+        <item>Cortado</item>
+        <item>Costura</item>
+        <item>Acabado</item>
+        <item>Completado</item>
+    </string-array>
+    <string-array name="prioridades">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="tallas">
+        <item>XS</item><item>S</item><item>M</item><item>L</item><item>XL</item><item>XXL</item><item>Única</item>
+    </string-array>
+    <string-array name="tipos_uniforme">
+        <item>Camisa manga corta</item>
+        <item>Camisa manga larga</item>
+        <item>Pantalón</item>
+        <item>Falda</item>
+        <item>Sweater</item>
+        <item>Blazer</item>
+        <item>Medias</item>
+        <item>Corbata</item>
+    </string-array>
+    <string-array name="tipos_defecto">
+        <item>Costura defectuosa</item>
+        <item>Manchas o suciedad</item>
+        <item>Talla incorrecta</item>
+        <item>Color desigual</item>
+        <item>Botones faltantes</item>
+        <item>Cremallera defectuosa</item>
+        <item>Tela dañada</item>
+        <item>Bordado incorrecto</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="metodos_pago">
+        <item>Efectivo</item>
+        <item>Tarjeta de Crédito</item>
+        <item>Tarjeta de Débito</item>
+        <item>Transferencia Bancaria</item>
+        <item>Cheque</item>
+    </string-array>
+    <string-array name="colegios">
+        <item>Colegio San José</item>
+        <item>Instituto Nacional</item>
+        <item>Colegio Santa María</item>
+        <item>Colegio Bilingüe</item>
+        <item>Escuela Primaria Central</item>
+    </string-array>
+</resources>

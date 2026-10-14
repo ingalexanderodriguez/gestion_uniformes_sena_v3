@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Uniformes" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_100</item>
+        <item name="colorOnPrimaryContainer">@color/brand_800</item>
+        <item name="android:colorBackground">@color/gray_50</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Badge" />
+    <style name="Text" />
+
+    <style name="Text.PageTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+    <style name="Text.PageSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_500</item>
+    </style>
+    <style name="Text.CardTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+    <style name="Text.Label">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_500</item>
+    </style>
+    <style name="Text.Value">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+    <style name="Text.Muted">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_500</item>
+    </style>
+    <style name="Text.StatValue">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+
+    <style name="Card">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/gray_300</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Button.Icon" parent="Widget.Material3.Button.IconButton">
+        <item name="iconTint">@color/gray_500</item>
+    </style>
+    <style name="Button.Severity" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/gray_300</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Progress.Produccion" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_produccion</item>
+        <item name="android:minHeight">8dp</item>
+        <item name="android:maxHeight">8dp</item>
+    </style>
+
+    <style name="Badge.Pendiente">
+        <item name="android:background">@drawable/bg_badge_amber</item>
+        <item name="android:textColor">@color/amber_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.EnProduccion">
+        <item name="android:background">@drawable/bg_badge_brand</item>
+        <item name="android:textColor">@color/brand_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.Completado">
+        <item name="android:background">@drawable/bg_badge_green</item>
+        <item name="android:textColor">@color/green_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.Cortado">
+        <item name="android:background">@drawable/bg_badge_yellow</item>
+        <item name="android:textColor">@color/yellow_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.Costura">
+        <item name="android:background">@drawable/bg_badge_purple</item>
+        <item name="android:textColor">@color/purple_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.Acabado">
+        <item name="android:background">@drawable/bg_badge_brand</item>
+        <item name="android:textColor">@color/brand_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.PrioridadAlta">
+        <item name="android:background">@drawable/bg_badge_red</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.PrioridadMedia">
+        <item name="android:background">@drawable/bg_badge_yellow</item>
+        <item name="android:textColor">@color/yellow_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.PrioridadBaja">
+        <item name="android:background">@drawable/bg_badge_gray</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.GravedadLeve">
+        <item name="android:background">@drawable/bg_badge_gray</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.GravedadModerado">
+        <item name="android:background">@drawable/bg_badge_brand</item>
+        <item name="android:textColor">@color/brand_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Badge.GravedadGrave">
+        <item name="android:background">@drawable/bg_badge_red</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboardFragment"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/pedidosFragment"
+            android:icon="@drawable/ic_cart"
+            android:title="@string/menu_pedidos" />
+        <item
+            android:id="@+id/produccionFragment"
+            android:icon="@drawable/ic_box"
+            android:title="@string/menu_produccion" />
+        <item
+            android:id="@+id/nuevoPedidoFragment"
+            android:icon="@drawable/ic_file_plus"
+            android:title="@string/menu_nuevoPedido" />
+        <item
+            android:id="@+id/controlCalidadFragment"
+            android:icon="@drawable/ic_check_square"
+            android:title="@string/menu_controlCalidad" />
+        <item
+            android:id="@+id/facturacionFragment"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/menu_facturacion" />
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
